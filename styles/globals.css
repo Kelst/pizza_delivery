@@ -12,6 +12,7 @@ body {
 
 :root{
   --themeRed: #F54748;
+  --themeRedSec: #ec5b5b;
   --themeBlack: #2E2E2E;
   --pink: #FDECEC;
   --gray: #828282;
@@ -51,4 +52,21 @@ a {
   box-sizing: border-box;
   transition: all 300ms ease;
 
+}
+.btn{
+  width: max-content;
+  padding: 1rem;
+  border-radius: 4rem;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  background-color: var(--themeRed) ;
+  cursor: pointer;
+ 
+
+
+}
+.btn:hover{
+  transform: scale(1.1);
+  background-color: var(--themeRedSec);
 }
